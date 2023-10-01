@@ -1,0 +1,54 @@
+    <!DOCTYPE html>
+    <html lang="es-MX">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Monstermon</title>
+        <link rel="stylesheet" href="/MOSTERMON/style.css">
+        <script src="./JS/monstermon.js"></script>
+    </head>
+    <body>
+        <section id="selecciona-mascota">
+            <h1 class="titulo">MONSTERMON!!! 👊✌✋</h1>
+            <h2 class="subtitulo">Elige tu mascota:</h2>
+            <div class="tarjetas">
+                <input type="radio" name="mascota" id="hipodoge">
+                <label class="tarjeta-mascota" for="hipodoge">
+                    <p>Hipodoge</p>
+                    <img src="/MOSTERMON/ASSETS/mokepons_mokepon_hipodoge_attack.png" alt="Hipodoge">
+                </label>
+                <input type="radio" name="mascota" id="capipepo">
+                <label class="tarjeta-mascota" for="capipepo">
+                    <p>Capipepo</p>
+                    <img src="/MOSTERMON/ASSETS/mokepons_mokepon_capipepo_attack.png" alt="Capipepo">
+                </label>
+                <input type="radio" name="mascota" id="ratigueya">
+                <label class="tarjeta-mascota" for="ratigueya">
+                    <p>Ratigueya</p>
+                    <img src="/MOSTERMON/ASSETS/mokepons_mokepon_ratigueya_attack.png" alt="Ratigueya">
+                </label>
+            </div>
+            <button id="seleccionarMascotaBoton">Seleccionar</button>
+        </section>
+        <section id="selecciona-poder">
+            <h1 class="titulo">MONSTERMON!!! 👊✌✋</h1>
+            <h2>Elige tu poder:</h2>
+            <div>
+                <button id="piedra">Piedra 👊</button>
+                <button id="tijera">Tijera ✌</button>
+                <button id="papel">Papel ✋</button>
+            </div>
+            <div class="divVidas">
+                <p>Tu <span id="spanMascotaJugador">mascota</span> tiene <span id="spanVidasMascota">3</span> vidas</p>
+                <p>La <span id="spanMascotaEnemigo">mascota</span> de tu enemigo tiene <span id="spanVidasEnemigo">3</span> vidas</p>
+            </div>
+            <div>
+                <section id="reintentar">
+                    <button id="reiniciar">Reiniciar</button>
+                </section>
+                <section id="mensajes">
+                </section>
+            </div>
+        </section>
+    </body>
+    </html> 
